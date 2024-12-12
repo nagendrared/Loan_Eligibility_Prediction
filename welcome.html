@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loan Eligibility Prediction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #007bff;
+      padding: 15px 30px;
+      color: white;
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .navbar .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 1rem;
+    }
+
+    .navbar .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Content */
+    .main-content {
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .main-content h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    .main-content p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .main-content button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: white;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .main-content button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <div class="logo">Loan Eligibility Prediction</div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="login.html">Login</a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h1>Welcome to Loan Eligibility Prediction</h1>
+    <p>Check if you're eligible for a loan with our predictive system.</p>
+    <button onclick="redirectToLogin()">Login</button>
+  </div>
+
+  <script>
+    function redirectToLogin() {
+      window.location.href = 'login.html';
+    }
+  </script>
+</body>
+</html>
+
+</html>
